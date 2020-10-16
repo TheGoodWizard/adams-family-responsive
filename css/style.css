@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+  margin: 0px;
+}
+.clear {
+  clear: both;
+}
+#wrapper {
+	/* Change the width to 90% and add max-width:960px; */
+  margin: auto;
+  max-width: 960px;
+  width: 90%;
+}
+
+/*---------- HEADER ----------*/
+
+header {
+  background: #000;
+  height: 300px;
+  /*Change the width to 100%; - so it is 100% of its parent container (the wrapper) */
+  width: 100%;
+}
+
+
+/*---------- CONTENT AREA ----------*/
+
+.col-4 {
+  /* Change the width to 25% */
+  float: left;
+  height: 240px;
+  width: 25%;
+}
+.grey-1 {
+  background: #CCC;
+}
+.grey-2 {
+  background: #999;
+}
+.grey-3 {
+  background: #666;
+}
+.grey-4 {
+  background: #333;
+}
+
+/*---------- FOOTER ----------*/
+
+footer {
+  /* Change the width to 100% */
+  background: #000;
+  height: 30px;
+  width: 100%;
+}
+ 
